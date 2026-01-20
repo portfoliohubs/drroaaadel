@@ -1,0 +1,350 @@
+baseURL = "https://portfoliohubs.github.io/drroaaadel/"
+languageCode = "en-us"
+title = "Dr. Roaa Adel"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Roaa Adel"
+    tagline = "Internship dentist"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/1fd807ab-3d10-41ee-9d63-57f097d1eab6"
+    profile_image_alt = "Profile photo of Dr. Roaa Adel"
+    
+    [params.hero.current_position]
+      role = "Internship dentist"
+      clinic = "Zagazig university Hospital"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Roaa Adel"
+    doctor_name_ar = "د. رؤى عادل إسماعيل محمود"
+    site_name = "Dr. Roaa Adel"
+    og_image = ""
+    favicon_image = ""
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Roaa Adel",
+      "Roaa Adel Ismail Mahmoud",
+      "zagazig",
+      "DENTIST IN ZAGAZIG",
+      "DENTAL CLINIC IN ZAGAZIG",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. رؤى عادل إسماعيل محمود",
+      "طبيب بالزقازيق",
+      "عيادة بالزقازيق",
+      "دكتور رؤى عادل",
+      "عيادة رؤى عادل",
+      "عيادة اسنان الشرقية",
+      "رؤى عادل اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Surgery",
+      "Endodontics",
+      "Operative Dentistry",
+      "Pediatric Dentistry",
+      "Cosmetic Dentistry",
+      "Periodontology",
+      "Fixed Prosthodontic",
+      "Removable Prosthodontic"
+    ]
+    
+    digital = [
+      "Dental photography",
+      "Microsoft PowerPoint"
+    ]
+    
+    soft = [
+      "Pediatric patient management",
+      "patient management",
+      "Treatment plane"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Zagazig university"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = "2024"
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = "2028"
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Started Faculty of Dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "graduated"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+#Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative"
+    category_ar = "حشو عادى وتجميلى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=1MkPweUWgIjWWCl_Hr37je_L_iYSiLCGa"
+      alt = "Build up after endo&fiber post in upper lateral"
+      description = "Build up after endo&fiber post in upper lateral"
+      alt_ar = "حشو تجميلي سنة امامية"
+      description_ar = "حشو تجميلي سنة امامية"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1a8a8474-a46b-49f4-ac32-e19d67ab7c84"
+      alt = "Upper 6 Amalgam replacement with deep marginal elevation"
+      description = "Upper 6 Amalgam replacement with deep marginal elevation"
+      alt_ar = "استبدال حشو بلاتين بكومبوزيت الضرس السادس علوي"
+      description_ar = "استبدال حشو بلاتين بكومبوزيت الضرس السادس علوي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/3f3bf780-12bf-43fd-8b95-94437a0436c6"
+      alt = "Upper 6 class II with indirect pulp capping"
+      description = "Upper 6 class II with indirect pulp capping"
+      alt_ar = "حشو عادي في الضرس السادس علوي"
+      description_ar = "حشو عادي في الضرس السادس علوي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "prosthesis"
+    category_ar = "تركيبات ثابته ومتحركه"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/dd594741-1fce-4041-8714-3653d844b0b8"
+      alt = "Bridge to restore missed lower 6"
+      description = "Bridge to restore missed lower 6"
+      alt_ar = "تركيبة ثابتة لتعويض الضرس السادس سفلي"
+      description_ar = "تركيبة ثابتة لتعويض الضرس السادس سفلي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/5ef67886-cc4d-4627-b7f8-03a77890dd78"
+      alt = "Three units full coverage crowns after endo ttt for upper 4,5,6"
+      description = "Three units full coverage crowns after endo ttt for upper 4,5,6"
+      alt_ar = "تركيبات ثابتة لأسنان علوية"
+      description_ar = "تركيبات ثابتة لأسنان علوية"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/53d60b11-5b21-4bdc-ba78-ceb776401bac"
+      alt = "Complete denture for patient wound lower flat ridge"
+      description = "Complete denture for patient wound lower flat ridge"
+      alt_ar = "طقم كامل متحرك"
+      description_ar = "طقم كامل متحرك"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "حشو عصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/08cfae84-ecd4-4851-b8d8-af9fe5a2ec2e"
+      alt = "Upper 6 Endo ttt"
+      description = "Upper 6 Endo ttt"
+      alt_ar = "حشو عصب في الضرس السادس علوي"
+      description_ar = "حشو عصب في الضرس السادس علوي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/281787d2-7a08-4ea0-b67d-6584528ca7ae"
+      alt = "Endo ttt of upper 6 with BF bypass in DB canal"
+      description = "Endo ttt of upper 6 with BF bypass in DB canal"
+      alt_ar = "حشو عصب في الضرس السادس علوي مع تجاوز فايل مكسور"
+      description_ar = "حشو عصب في الضرس السادس علوي مع تجاوز فايل مكسور"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/4a10c160-d1c1-4b55-96d2-b1c35940c4f7"
+      alt = "Endo ttt of lower 6"
+      description = "Endo ttt of lower 6"
+      alt_ar = "حشو عصب في الضرس السادس سفلي"
+      description_ar = "حشو عصب في الضرس السادس سفلي"
+      
+  # Contact Section
+  [params.contact]
+    phone = "012-2984317"
+    whatsapp = "012-2984317"
+    email = "ro2aadel27714@gmail.com"
+    instagram = ""
+    facebook = "https://www.facebook.com/share/1FAm59XADM/?mibextid=wwXIfr https://www.facebook.com/share/1FAm59XADM/?mibextid=wwXIfr"
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "El Tagneed st An Nahal"
+      latitude = "30.585070727964393"
+      longitude = "31.487296675825437"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. رؤى عادل إسماعيل محمود"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور رؤى عادل إسماعيل محمود"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "مستشفي جامعة الزقازيق"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحة",
+      "حشو عصب",
+      "حشو عادي",
+      "اطفال",
+      "تجميلي",
+      "تركيبات ثابتة",
+      "تركيبات متحركة",
+      "أمراض الفم و اللثة"
+    ]
+    
+    digital = [
+      "التصوير طبي",
+      "powerpoint"
+    ]
+    
+    soft = [
+      "التواصل مع المرضي الأطفال",
+      "التواصل مع المرضي",
+      "خطة علاج"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعة الزقازيق"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "دخول الكلية"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج من الكلية"  
+
+  [params.ar.contact.location]
+    address = "El Tagneed st An Nahal"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
