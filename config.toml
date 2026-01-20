@@ -234,8 +234,8 @@ defaultContentLanguage = "en"
       
   # Contact Section
   [params.contact]
-    phone = "012-2984317"
-    whatsapp = "012-2984317"
+    phone = "+201212984317"
+    whatsapp = "+201212984317"
     email = "ro2aadel27714@gmail.com"
     instagram = ""
     facebook = "https://www.facebook.com/share/1FAm59XADM/?mibextid=wwXIfr"
