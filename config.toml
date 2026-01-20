@@ -19,7 +19,7 @@ defaultContentLanguage = "en"
   [params.seo]
     description = "Professional dental portfolio"
     doctor_name_en = "Dr. Roaa Adel"
-    doctor_name_ar = "د. رؤى عادل إسماعيل محمود"
+    doctor_name_ar = "د. رؤى عادل"
     site_name = "Dr. Roaa Adel"
     og_image = ""
     favicon_image = ""
@@ -30,7 +30,7 @@ defaultContentLanguage = "en"
       "cosmetic dentistry",
       "restorative dentistry",
       "Dr. Roaa Adel",
-      "Roaa Adel Ismail Mahmoud",
+      "Roaa Adel",
       "zagazig",
       "DENTIST IN ZAGAZIG",
       "DENTAL CLINIC IN ZAGAZIG",
@@ -41,7 +41,7 @@ defaultContentLanguage = "en"
       "عيادة أسنان",
       "تجميل الأسنان",
       "ترميم الأسنان",
-      "د. رؤى عادل إسماعيل محمود",
+      "د. رؤى عادل",
       "طبيب بالزقازيق",
       "عيادة بالزقازيق",
       "دكتور رؤى عادل",
@@ -250,10 +250,10 @@ defaultContentLanguage = "en"
 # Arabic Translations
 [params.ar]
   [params.ar.hero]
-    name = "د. رؤى عادل إسماعيل محمود"
+    name = "د. رؤى عادل"
     tagline = "طبيب امتياز"
     graduation = "تخرج 2025 - كلية طب الأسنان"
-    profile_image_alt = "صورة الملف الشخصي للدكتور رؤى عادل إسماعيل محمود"
+    profile_image_alt = "صورة الملف الشخصي للدكتور رؤى عادل"
     
     [params.ar.hero.current_position]
       role = "طبيب امتياز"
