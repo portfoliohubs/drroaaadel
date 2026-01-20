@@ -238,7 +238,7 @@ defaultContentLanguage = "en"
     whatsapp = "012-2984317"
     email = "ro2aadel27714@gmail.com"
     instagram = ""
-    facebook = "https://www.facebook.com/share/1FAm59XADM/?mibextid=wwXIfr https://www.facebook.com/share/1FAm59XADM/?mibextid=wwXIfr"
+    facebook = "https://www.facebook.com/share/1FAm59XADM/?mibextid=wwXIfr"
     linkedin = ""
     
     [params.contact.location]
